@@ -1,0 +1,142 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    /* height: 100vh; */
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right .front-designs,
+.right .back-designs,
+.right .sleeve-designs {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.right .front-design,
+.right .back-design,
+.right .sleeve-design {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    background-color: #000;
+}
+
+.front-design[data-design-id="image-pattern-one"],
+.front-design[data-design-id="image-pattern-two"],
+.front-design[data-design-id="image-pattern-three"],
+.front-design[data-design-id="image-pattern-four"] {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.front-design[data-design-id="image-pattern-one"] {
+    background-image: url(https://i.pinimg.com/564x/d5/9d/94/d59d94213f6cec910f79745159fa09a4.jpg);
+}
+
+.front-design[data-design-id="image-pattern-two"] {
+    background-image: url(https://i.pinimg.com/564x/8d/3d/34/8d3d344a055af3cb2acd09a2e90616cd.jpg);
+}
+
+.front-design[data-design-id="image-pattern-three"] {
+    background-image: url(https://i.pinimg.com/564x/a3/c6/bc/a3c6bc5f6b4c01f62b193fdc4920d3d5.jpg);
+}
+
+.front-design[data-design-id="image-pattern-four"] {
+    background-image: url(https://i.pinimg.com/564x/47/d5/e0/47d5e05a33be35cfdcf9a167a7a2a767.jpg);
+}
+
+.back-design[data-design-id="image-pattern-five"],
+.back-design[data-design-id="image-pattern-six"],
+.back-design[data-design-id="image-pattern-seven"],
+.back-design[data-design-id="image-pattern-eight"]
+ {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.back-design[data-design-id="image-pattern-five"] {
+    background-image: url(https://i.pinimg.com/564x/65/f6/45/65f645448141ace3b86b8eae7e8c9126.jpg);
+}
+
+.back-design[data-design-id="image-pattern-six"] {
+    background-image: url(https://i.pinimg.com/564x/f3/3f/9d/f33f9de5106624614631e2f36e16c290.jpg);
+}
+
+.back-design[data-design-id="image-pattern-seven"] {
+    background-image: url(https://i.pinimg.com/564x/c8/c9/aa/c8c9aa02fcd0c98be51fac6efb8d8801.jpg);
+}
+
+.back-design[data-design-id="image-pattern-eight"] {
+    background-image: url(https://i.pinimg.com/564x/a1/fa/74/a1fa746d7d8b6ec918da3a7aa61deba8.jpg);
+}
+
+
+.sleeve-design[data-design-id="image-pattern-five"],
+.sleeve-design[data-design-id="image-pattern-six"],
+.sleeve-design[data-design-id="image-pattern-seven"],
+.sleeve-design[data-design-id="image-pattern-eight"]
+ {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sleeve-design[data-design-id="image-pattern-nine"] {
+    background-image: url(https://i.pinimg.com/564x/40/d2/1d/40d21dcb064e36270090533e2ed0f7bb.jpg);
+}
+
+.sleeve-design[data-design-id="image-pattern-ten"] {
+    background-image: url(https://i.pinimg.com/564x/88/a6/76/88a676c0b0d62749976ceba4a047976b.jpg);
+}
+
+.sleeve-design[data-design-id="image-pattern-eleven"] {
+    background-image: url(https://i.pinimg.com/564x/e1/1e/4b/e11e4b8d55042efde68d72c857a961e9.jpg);
+}
+
+.sleeve-design[data-design-id="image-pattern-twelve"] {
+    background-image: url(https://i.pinimg.com/564x/63/0d/f1/630df1cbed2b1efb3120a6484ec45d05.jpg);
+}
+
+
+li {
+    position: relative;
+}
+
+p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: red;
+    background-color: black;
+    margin: 0;
+}
